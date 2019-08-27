@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms Exercise</title>
+</head>
+<body>
+
+    <h1>Register Here</h1>
+
+    <form>
+        
+        <label for="firstName">First Name:</label>
+        <input id="firstName" name="firstName" type="text" placeholder="Steve">
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" name="lastName" type="text" placeholder="Smith">
+
+        <label for="male">Male: </label>
+        <input name="choose-gender" id="male" type="radio" value="male">
+        <label for="female">Female: </label>
+        <input name="choose-gender" id="female" type="radio" value="female">
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Your Email">
+        <label for="password">Password: </label>
+        <input type="text" name="password" id="password">
+
+        <!-- Fieldset Group -->
+        
+        <fieldset>
+            <legend>Birthday:</legend>
+            <label for="month">Month:</label>
+            <select name="month" id="month">
+                <option value="jan">January</option>
+                <option value="feb">Febuary</option>
+                <option value="march">March</option>
+            </select>
+
+            <label for="day">Day:</label>
+            <select name="day" id="day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+            <label for="year">Year:</label>
+            <select name="year" id="year">
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+            </select>
+        </fieldset>
+
+        <label for="conditions">I agree to the terms and condition:</label>
+            <input type="checkbox" id="checkbox" name="conditions">
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>
