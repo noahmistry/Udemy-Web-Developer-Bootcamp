@@ -1,0 +1,12 @@
+h1 {
+    color: yellowgreen;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+#special {
+    border: 3px solid red;
+    background-color: yellow;
+}
