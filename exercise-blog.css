@@ -1,0 +1,39 @@
+#centered-div {
+    border: 20px solid #bdc3c7;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    width: 80%;
+    max-width: 700px; 
+    padding: 20px;
+    margin: 20px auto;
+}
+.date-header {
+    color: #3498db;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    
+}
+.main-header-text {
+    color:#2c3e50;
+    font-size: 2rem;
+    
+}
+#bordered-paragraph {
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+/*
+border-color: 
+date color: #3498db
+h2 color: #2c3e50
+
+font-family: Source Sans Pro
+*/
