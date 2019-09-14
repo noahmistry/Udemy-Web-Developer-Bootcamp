@@ -1,0 +1,28 @@
+.navbar .navbar-brand {
+    font-family:'Great Vibes';
+}
+.display-3 {
+    font-family: 'Playfair Display';
+    text-align: left;
+    overflow-wrap:break-word;
+    width: 50%;
+}
+.lead {
+    font-family: 'Montserrat';
+    text-align: left;
+    overflow-wrap:break-word;
+    width: 50%;
+}
+
+#button-width {
+    width: 20%;
+    margin: 1.2rem .3rem;
+}
+
+#header {
+    background: url('img/painting-header-img.jpg') no-repeat;
+    background-size: cover;
+    background-position-y: 40%;
+    height: 580px;
+    text-align: left; 
+}
